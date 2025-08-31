@@ -1,0 +1,9 @@
+pyspark
+dvc
+mlflow
+fastapi
+uvicorn
+pandas
+scikit-learn
+matplotlib
+scipy

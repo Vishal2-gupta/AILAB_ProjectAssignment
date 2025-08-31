@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7dd551968a604c31873e4f9607e50493/artifacts
+deleted_time: 1756321350253
+end_time: 1756318370525
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7dd551968a604c31873e4f9607e50493
+run_name: dapper-boar-746
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756318347661
+status: 3
+tags: []
+user_id: vishalgupta

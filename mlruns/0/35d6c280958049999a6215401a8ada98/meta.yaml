@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/35d6c280958049999a6215401a8ada98/artifacts
+end_time: 1756320571556
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 35d6c280958049999a6215401a8ada98
+run_name: judicious-tern-965
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756320547293
+status: 3
+tags: []
+user_id: vishalgupta

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/11957390f78e47fdb72ee67c4293ab90/artifacts
+deleted_time: 1756317770215
+end_time: 1756317734656
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 11957390f78e47fdb72ee67c4293ab90
+run_name: charming-cub-582
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756317721630
+status: 4
+tags: []
+user_id: vishalgupta

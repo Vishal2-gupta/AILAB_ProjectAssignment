@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8fbd3ffef9b24feb89bcc9e9fb294186/artifacts
+deleted_time: 1756321350250
+end_time: 1756319228586
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8fbd3ffef9b24feb89bcc9e9fb294186
+run_name: legendary-stoat-184
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756319204130
+status: 3
+tags: []
+user_id: vishalgupta

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/feee83847b1945ed8fc169a51eb80e2f/artifacts
+end_time: 1756418925312
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: feee83847b1945ed8fc169a51eb80e2f
+run_name: tasteful-doe-761
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756418924916
+status: 4
+tags: []
+user_id: vishalgupta

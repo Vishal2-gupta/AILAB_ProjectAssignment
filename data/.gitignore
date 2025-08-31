@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+.venv/
+data/raw/*
+!data/raw/*.dvc
+data/processed/*
+!data/processed/*.dvc
+models/
+reports/
+demo/demo_video.mp4

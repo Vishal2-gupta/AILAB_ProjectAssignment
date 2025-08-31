@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/04a723847d27418a818621ed2d1f4072/artifacts
+deleted_time: 1756321350256
+end_time: 1756318435245
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 04a723847d27418a818621ed2d1f4072
+run_name: casual-lark-673
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756318412467
+status: 3
+tags: []
+user_id: vishalgupta

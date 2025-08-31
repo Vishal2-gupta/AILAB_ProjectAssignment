@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/1e86ae6511d04d06bcbe7ceacc0b4f8e/artifacts
+deleted_time: 1756317770215
+end_time: 1756317585072
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 1e86ae6511d04d06bcbe7ceacc0b4f8e
+run_name: nosy-mink-315
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756317572681
+status: 4
+tags: []
+user_id: vishalgupta

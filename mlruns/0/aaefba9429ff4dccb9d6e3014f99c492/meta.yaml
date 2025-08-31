@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/aaefba9429ff4dccb9d6e3014f99c492/artifacts
+deleted_time: 1756321350256
+end_time: 1756317929490
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: aaefba9429ff4dccb9d6e3014f99c492
+run_name: unleashed-stork-601
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756317914954
+status: 4
+tags: []
+user_id: vishalgupta

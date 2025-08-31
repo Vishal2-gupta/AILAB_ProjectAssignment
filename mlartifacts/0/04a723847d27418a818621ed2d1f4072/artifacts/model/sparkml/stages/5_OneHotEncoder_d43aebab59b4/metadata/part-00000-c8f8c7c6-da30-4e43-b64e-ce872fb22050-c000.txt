@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1756318426443,"sparkVersion":"4.0.0","uid":"OneHotEncoder_d43aebab59b4","paramMap":{"outputCol":"Title_vec","inputCol":"Title_index"},"defaultParamMap":{"dropLast":true,"handleInvalid":"error","outputCol":"OneHotEncoder_d43aebab59b4__output"}}
