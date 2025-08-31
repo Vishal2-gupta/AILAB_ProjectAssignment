@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 # Initialize Spark session with resource config
 spark = SparkSession.builder \
-    .appName("TitanicTraining") \
+    .appName("CH24M584_TitanicTraining") \
     .config("spark.executor.memory", "2g") \
     .config("spark.driver.memory", "2g") \
     .config("spark.executor.cores", "2") \
