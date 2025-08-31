@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a5632b0b0f754c4c97c8540f89bc9bef/artifacts
+end_time: 1756653830403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5632b0b0f754c4c97c8540f89bc9bef
+run_name: vaunted-wolf-257
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756653805284
+status: 3
+tags: []
+user_id: vishalgupta
