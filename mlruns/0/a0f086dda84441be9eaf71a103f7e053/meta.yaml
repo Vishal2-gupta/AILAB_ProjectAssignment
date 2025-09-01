@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/a0f086dda84441be9eaf71a103f7e053/artifacts
+end_time: 1756731892802
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0f086dda84441be9eaf71a103f7e053
+run_name: rumbling-rat-477
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756731868386
+status: 3
+tags: []
+user_id: vishalgupta

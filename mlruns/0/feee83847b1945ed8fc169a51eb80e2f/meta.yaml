@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/0/feee83847b1945ed8fc169a51eb80e2f/artifacts
+deleted_time: 1756706269961
 end_time: 1756418925312
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: feee83847b1945ed8fc169a51eb80e2f
 run_name: tasteful-doe-761
 source_name: ''

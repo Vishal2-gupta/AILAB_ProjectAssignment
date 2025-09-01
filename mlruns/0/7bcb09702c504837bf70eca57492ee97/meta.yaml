@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7bcb09702c504837bf70eca57492ee97/artifacts
+deleted_time: 1756731989681
+end_time: 1756731513457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 7bcb09702c504837bf70eca57492ee97
+run_name: rogue-fowl-692
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756731501322
+status: 4
+tags: []
+user_id: vishalgupta

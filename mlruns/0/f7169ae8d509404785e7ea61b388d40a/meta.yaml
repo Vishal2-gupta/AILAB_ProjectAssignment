@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/f7169ae8d509404785e7ea61b388d40a/artifacts
+deleted_time: 1756731989682
+end_time: 1756731726526
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: f7169ae8d509404785e7ea61b388d40a
+run_name: masked-dog-633
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756731713655
+status: 4
+tags: []
+user_id: vishalgupta

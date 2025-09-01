@@ -43,15 +43,15 @@ This repository contains a robust MLOps pipeline for predicting survival on the 
 ## Installation
 
 - Clone the Repository:
-- bash:
-- git clone https://github.com/your-username/mlops-titanic.git
+bash:
+- git clone https://github.com/Vishal2-gupta/AILAB_ProjectAssignment.git
 - cd mlops-titanic
 
 - Install Dependencies:
 - pip install -r requirements.txt
 
 ## Initialize DVC and Git:
-- bash:
+bash:
 - git init
 - dvc init
 
@@ -60,7 +60,7 @@ This repository contains a robust MLOps pipeline for predicting survival on the 
 - Download train.csv and test.csv from Kaggle.
 - Place them in the data/raw/ directory.
 - Version the raw data with DVC:
-- bash:
+bash:
 - mkdir -p data/raw data/processed
 - mv train.csv test.csv data/raw/
 - dvc add data/raw
@@ -72,14 +72,14 @@ This repository contains a robust MLOps pipeline for predicting survival on the 
 - Run the Full Pipeline
 
 - Start MLflow Tracking Server (in a separate terminal):
-- bash:
+bash:
 - mlflow ui --host 127.0.0.1 --port 5000 or mlflow ui
 
-Access the UI at http://127.0.0.1:5000 to monitor experiments.
+- Access the UI at http://127.0.0.1:5000/#/experiments/0/runs/a0f086dda84441be9eaf71a103f7e053 to monitor experiments.
 
 
 ## Execute the DVC Pipeline:
-- bash:
+bash:
 - dvc repro
 
 This automates the following stages:
@@ -96,33 +96,34 @@ Note: The API runs in the background; stop it manually (e.g., Ctrl+C) when done 
 # Test the API:
 
 - Run the test script:
-- bash:
+bash:
 - python src/api_test.py
 
 Expected output: A prediction (e.g., Prediction: {'survived': 0}).
-Alternatively, use the Swagger UI at http://localhost:8000/docs.
+
+- Alternatively, use the Swagger UI at http://localhost:8000/docs.
 
 
 
 # Manual Script Execution (for Debugging)
 
 Preprocess Data:
-- bash:
+bash:
 - python src/data_preprocessing.py
 - dvc add data/processed
 - git add data/processed.dvc
 - git commit -m "Add processed data with DVC"
 
 - Train Model:
-- bash:
+bash:
 - python src/model_training.py
 
 - Deploy API:
-- bash:
+bash:
 - python src/api_deployment.py
 
 - Detect Drift:
-- bash:
+bash:
 - python src/drift_detection.py
 
 
@@ -130,8 +131,46 @@ Preprocess Data:
 
 - After training, use the MLflow UI or a script to set the best model version to "Production":
 - pythonfrom mlflow.tracking import MlflowClient
-- client = MlflowClient(tracking_uri="http://127.0.0.1:5000")
+- client = MlflowClient(tracking_uri="http://127.0.0.1:5000/#/models/TitanicModel/versions/7")
 - client.transition_model_version_stage(name="TitanicModel", version=<version>, stage="Production")
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/s1.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s1.png" alt="Home Page" width="600"/>
+
+### MLFlow UI
+![MLFLow UI Flow](screenshots/s2.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s2.png" alt="API Flow" width="600"/>
+
+### MLFlow UI
+![MLFLow UI Flow](screenshots/s3.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s3.png" alt="API Flow" width="600"/>
+
+### MLFlow UI
+![MLFLow UI Flow](screenshots/s4.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s4.png" alt="API Flow" width="600"/>
+
+### MLFlow UI
+![MLFLow UI Flow](screenshots/s5.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s5.png" alt="API Flow" width="600"/>
+
+### MLFlow UI
+![MLFLow UI Flow](screenshots/s6.png)
+
+<!-- Resized version using HTML -->
+<img src="screenshots/s6.png" alt="API Flow" width="600"/>
 
 
 ## Project Structure
