@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/0a2fa043ba514e4a8f7b97476c1d0bc6/artifacts
+end_time: 1756742556228
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a2fa043ba514e4a8f7b97476c1d0bc6
+run_name: glamorous-fowl-490
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756742520247
+status: 3
+tags: []
+user_id: vishalgupta

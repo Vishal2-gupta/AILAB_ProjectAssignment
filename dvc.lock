@@ -11,7 +11,7 @@ stages:
     outs:
     - path: data/processed
       hash: md5
-      md5: 3318a224f31ca9f5fc9fd9550bb5acf9.dir
+      md5: 7250cbf218c2da2f0b4ab80270c0f6fc.dir
       size: 54172
       nfiles: 8
   train:
@@ -19,16 +19,20 @@ stages:
     deps:
     - path: data/processed
       hash: md5
-      md5: 3318a224f31ca9f5fc9fd9550bb5acf9.dir
+      md5: 7250cbf218c2da2f0b4ab80270c0f6fc.dir
       size: 54172
       nfiles: 8
     outs:
     - path: models/best_rf_model
       hash: md5
-      md5: eab5b00038aa75dcb430416daa5b0304.dir
-      size: 30961
+      md5: 11127153292cd6701f0e0c073de3fbef.dir
+      size: 39770
       nfiles: 68
     - path: reports/figures/confusion_matrix.png
       hash: md5
-      md5: 813c9146342728a59bbe93565bdec8f0
-      size: 16180
+      md5: 841f0cb65d1e78239c0c9d9bf8c7ab30
+      size: 16083
+    - path: reports/figures/feature_importance.png
+      hash: md5
+      md5: 191ee534c2cef828817d39309680a533
+      size: 24377

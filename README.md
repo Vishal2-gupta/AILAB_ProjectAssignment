@@ -86,7 +86,7 @@ This automates the following stages:
 
 - preprocess: Preprocesses raw data and saves to data/processed/.
 - train: Trains a RandomForest model, logs to MLflow, and saves to models/.
-- deploy: Starts a FastAPI server for predictions at http://localhost:8000.
+- deploy: Starts a FastAPI server for predictions at http://localhost:8000/docs.
 - drift: Detects data drift and triggers retraining if needed.
 
 
@@ -103,7 +103,18 @@ Expected output: A prediction (e.g., Prediction: {'survived': 0}).
 
 - Alternatively, use the Swagger UI at http://localhost:8000/docs.
 
+- Single Passenger Prediction (POST /predict): http://127.0.0.1:8000/docs#/default/predict_predict_post
 
+- Batch Prediction (POST /predict_batch): http://127.0.0.1:8000/docs#/default/predict_batch_predict_batch_post
+
+### REST API
+![REST API](screenshots/s7.png)
+
+### REST API
+![REST API](screenshots/s8.png)
+
+### REST API
+![REST API](screenshots/s9.png)
 
 # Manual Script Execution (for Debugging)
 
@@ -139,39 +150,20 @@ bash:
 ### Home Page
 ![Home Page](screenshots/s1.png)
 
-<!-- Resized version using HTML -->
-<img src="screenshots/s1.png" alt="Home Page" width="600"/>
-
 ### MLFlow UI
 ![MLFLow UI Flow](screenshots/s2.png)
-
-<!-- Resized version using HTML -->
-<img src="screenshots/s2.png" alt="API Flow" width="600"/>
 
 ### MLFlow UI
 ![MLFLow UI Flow](screenshots/s3.png)
 
-<!-- Resized version using HTML -->
-<img src="screenshots/s3.png" alt="API Flow" width="600"/>
-
 ### MLFlow UI
 ![MLFLow UI Flow](screenshots/s4.png)
-
-<!-- Resized version using HTML -->
-<img src="screenshots/s4.png" alt="API Flow" width="600"/>
 
 ### MLFlow UI
 ![MLFLow UI Flow](screenshots/s5.png)
 
-<!-- Resized version using HTML -->
-<img src="screenshots/s5.png" alt="API Flow" width="600"/>
-
 ### MLFlow UI
 ![MLFLow UI Flow](screenshots/s6.png)
-
-<!-- Resized version using HTML -->
-<img src="screenshots/s6.png" alt="API Flow" width="600"/>
-
 
 ## Project Structure
 

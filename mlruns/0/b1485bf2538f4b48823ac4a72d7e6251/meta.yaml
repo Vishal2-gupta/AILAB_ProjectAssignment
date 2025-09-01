@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b1485bf2538f4b48823ac4a72d7e6251/artifacts
+deleted_time: 1756743321564
+end_time: 1756742951522
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: b1485bf2538f4b48823ac4a72d7e6251
+run_name: agreeable-eel-830
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756742914649
+status: 3
+tags: []
+user_id: vishalgupta

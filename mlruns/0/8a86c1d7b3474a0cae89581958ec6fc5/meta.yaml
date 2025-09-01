@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8a86c1d7b3474a0cae89581958ec6fc5/artifacts
+deleted_time: 1756743321564
+end_time: 1756743275049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8a86c1d7b3474a0cae89581958ec6fc5
+run_name: spiffy-dog-915
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756743239219
+status: 3
+tags: []
+user_id: vishalgupta
